@@ -10,7 +10,9 @@ class SecondTest extends Component {
           {context => {
             return (
               <React.Fragment>
-                <p>Second Consumer Name: {context.state.name}</p>
+                <p onClick={context.scrambleName}>
+                  Second Consumer Name: {context.state.name}
+                </p>
                 <p>Second Consumer Age: {context.state.age}</p>
               </React.Fragment>
             );
