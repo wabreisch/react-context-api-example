@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-const MyContext = React.createContext();
+import MyContext from "./MyContext";
 
 // the provider holds the state we wish to pass down indefinitely
 class MyProvider extends Component {
