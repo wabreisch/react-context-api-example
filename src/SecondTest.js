@@ -11,7 +11,8 @@ class SecondTest extends Component {
             return (
               <React.Fragment>
                 <p onClick={context.scrambleName}>
-                  Second Consumer Name: {context.state.name}
+                  Second Consumer Name: {context.state.name} (Click me to
+                  shuffle the name)
                 </p>
                 <p>Second Consumer Age: {context.state.age}</p>
               </React.Fragment>
