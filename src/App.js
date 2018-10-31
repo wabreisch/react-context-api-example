@@ -8,9 +8,9 @@ import SecondTest from "./SecondTest";
 // the provider holds the state we wish to pass down indefinitely
 class MyProvider extends Component {
   state = {
-    name: "Matt Fishman",
-    age: 24,
-    cool: true
+    name: "Gavin Belson",
+    age: 48,
+    cool: false
   };
 
   render() {
@@ -49,7 +49,6 @@ class App extends Component {
     return (
       <MyProvider>
         <div className="App">
-          <p>I'm the app!</p>
           <Family />
           <SecondTest />
           <SecondTest />
